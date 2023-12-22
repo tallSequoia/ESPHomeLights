@@ -1,4 +1,6 @@
-# Police Scroll
+# Candy Cane
+
+A red and blue striped colour bar.
 
 ```
     - addressable_lambda:
