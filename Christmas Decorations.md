@@ -5,13 +5,14 @@ A red and green coloured sstatic bar.
 
 ```
     - addressable_lambda:
-        name: "Christmas Tree - Static
+        name: "Christmas Tree - Static"
         lambda: |-
-          for (int i = 0; i <  it.size(); i+=2) {
-            it[i] = Color(0, 179, 44, 0);
-          }        
-          for (int i = 1; i <  it.size(); i+=2) {
-            it[i] = Color(255, 0, 18, 0);
+          for (int i = 0; i < it.size(); i++) {
+            if (i % 2 == 1) {
+              it[i] = Color(255, 0, 18, 0);
+            } else {
+              it[i] = Color(0, 179, 44, 0);
+            }
           }
 ```
 
