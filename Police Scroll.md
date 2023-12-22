@@ -1,5 +1,7 @@
 # Police Scroll
 
+Blue and red bars.
+
 ```
     - addressable_lambda:
         name: "Police scroll"
