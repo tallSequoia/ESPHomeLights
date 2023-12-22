@@ -1,5 +1,7 @@
 # Esphome Lights
-Addressable lambda code for light effects in ESPHome
+Addressable lambda code for light effects in ESPHome.
+
+These have been collected from various sources - no intent to take away from their initial creators is intended and please let me know so that I can provide apprporiate attribution.
 
 # To use
 
@@ -32,3 +34,7 @@ e.g. for the Police Scroll effect
           if (pos >= it.size()) pos = 0; //rollover
 
 ```
+
+# Creating your own
+
+One of the ways I have found to create these is to use Chat GPT (https://chat.openai.com/). The current free tier, using Chat GPT 3.5, has proven to be fairly reliable at creating them, thoguh it takes a few iterations and some understanding is of use. Ask for an `addressable_lambda for ESPHome`.
